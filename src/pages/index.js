@@ -4,6 +4,7 @@ import { Link } from "gatsby"
 const IndexPage = () => (
   <div>
     <h2>Hasura Japan User Group</h2>
+    <h3>Hasura First Tutorial</h3>
     <ol>
       <li>
         <a href="https://uncle-javascript.com/hasura-tutorial-1">
