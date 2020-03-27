@@ -25,6 +25,11 @@ const IndexPage = () => (
           Hasura チュートリアル4 GraphQL で DB に item を追加する
         </a>
       </li>
+      <li>
+        <a href="https://uncle-javascript.com/hasura-tutorial-5">
+          Hasura チュートリアル5 Hasura の全体像について理解しよう
+        </a>
+      </li>
     </ol>
   </div>
 )
