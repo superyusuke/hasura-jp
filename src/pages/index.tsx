@@ -1,18 +1,22 @@
 import React from "react"
-import { Layout } from "src/pages/Layout"
+import { css } from "@emotion/core"
+import { Layout } from "src/components/Layout"
 import { HasuraTutorial } from "src/components/HasuraTutorial"
 import { HasuraMeetup1 } from "src/components/HasuraMeetup1"
 
-import { Provider, defaultTheme, Heading } from "@adobe/react-spectrum"
-
 const IndexPage = () => (
-  <Provider theme={defaultTheme}>
-    <Layout>
-      <Heading level={1}>Hasura Japan User Group</Heading>
-      <HasuraMeetup1 />
-      <HasuraTutorial />
-    </Layout>
-  </Provider>
+  <Layout>
+    <h1
+      css={css`
+        margin: 0;
+        padding-top: 20px;
+      `}
+    >
+      Hasura Japan User Group
+    </h1>
+    <HasuraMeetup1 />
+    <HasuraTutorial />
+  </Layout>
 )
 
 export default IndexPage

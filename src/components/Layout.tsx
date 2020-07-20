@@ -7,6 +7,16 @@ export const Layout: FC = ({ children }) => {
     <>
       <Global
         styles={css`
+          body {
+            padding: 0;
+            margin: 0;
+            background: white;
+            color: black;
+            @media (prefers-color-scheme: dark) {
+              background: black;
+              color: white;
+            }
+          }
           a {
             text-decoration: none;
             color: black;
@@ -20,7 +30,6 @@ export const Layout: FC = ({ children }) => {
         css={css`
           min-height: 100vh;
           margin: 0 20px;
-          padding-top: 30px;
         `}
       >
         {children}
