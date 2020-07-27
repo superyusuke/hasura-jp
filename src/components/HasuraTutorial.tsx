@@ -1,12 +1,10 @@
 import React from "react"
-import { css } from "@emotion/core"
+import { Button } from "src/components/Button"
 
 export const HasuraTutorial = () => (
   <div>
     <h2>Hasura First Tutorial</h2>
-    <a href="https://youtu.be/FMSDHXgyq2Y">
-      <button>動画でチェック！</button>
-    </a>
+    <Button url={"https://youtu.be/FMSDHXgyq2Y"} text={"動画でチェック！"} />
     <ol>
       <li>
         <a href="https://uncle-javascript.com/hasura-tutorial-1">

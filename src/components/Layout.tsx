@@ -7,21 +7,20 @@ export const Layout: FC = ({ children }) => {
     <>
       <Global
         styles={css`
+          * {
+            font-family: "Limelight", cursive, "Sawarabi Mincho", sans-serif;
+          }
           body {
             padding: 0;
             margin: 0;
-            background: white;
-            color: black;
-            @media (prefers-color-scheme: dark) {
-              background: black;
-              color: white;
-            }
+            background: #ef1a1a;
+            color: white;
           }
           a {
             text-decoration: none;
-            color: black;
-            @media (prefers-color-scheme: dark) {
-              color: white;
+            color: white;
+            &:hover {
+              background: black;
             }
           }
         `}

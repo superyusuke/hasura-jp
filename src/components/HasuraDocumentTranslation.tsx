@@ -1,17 +1,12 @@
 import React from "react"
-import { css } from "@emotion/core"
+import { Button } from "src/components/Button"
 
 export const HasuraDocumentTranslation = () => (
-  <div
-    css={css`
-      a {
-        border-bottom: 1px solid cornflowerblue;
-      }
-    `}
-  >
+  <div>
     <h2>Hasura 公式ドキュメントの翻訳</h2>
-    <a href="https://uncle-javascript.com/hasura-document-remote-schema">
-      Remote Schema
-    </a>
+    <Button
+      text={"Remote Schema"}
+      url={"https://uncle-javascript.com/hasura-document-remote-schema"}
+    />
   </div>
 )

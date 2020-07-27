@@ -1,10 +1,17 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Hasura Japan User Group`,
+    description: `Hasura Japan User Group は日本の Hasura ユーザーグループです。`,
+    author: `SuperYusuke`,
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`limelight`, `Sawarabi Mincho`],
+        display: "swap",
+      },
+    },
     "gatsby-plugin-emotion",
     "gatsby-plugin-root-import",
     `gatsby-plugin-react-helmet`,
