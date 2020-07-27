@@ -4,6 +4,7 @@ import { Layout } from "src/components/Layout"
 import { HasuraTutorial } from "src/components/HasuraTutorial"
 import { HasuraMeetup1 } from "src/components/HasuraMeetup1"
 import { HasuraMeetup2 } from "src/components/HasuraMeetup2"
+import { HasuraDocumentTranslation } from "src/components/HasuraDocumentTranslation"
 
 const IndexPage = () => (
   <Layout>
@@ -17,6 +18,7 @@ const IndexPage = () => (
     </h1>
     <HasuraMeetup1 />
     <HasuraMeetup2 />
+    <HasuraDocumentTranslation />
     <HasuraTutorial />
   </Layout>
 )
